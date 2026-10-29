@@ -1,0 +1,142 @@
+{
+  "schema": 2,
+  "status": "demo",
+  "products": [
+    {
+      "id": "moomoo",
+      "name": "Moomoo Cash Plus",
+      "bank": "Moomoo",
+      "logo": "M",
+      "cat": "Broker Cash Yield",
+      "tiers": [
+        [50000, 4.8],
+        [null, 3.2]
+      ],
+      "badges": ["Instant Liquidity", "T+1"],
+      "risk": 2,
+      "catch": [
+        "The headline rate only applies to the first RM50,000; balances above earn 3.20%.",
+        "Returns come from money-market funds, so this is not PIDM protected and the rate moves with the market.",
+        "Promotional boosts can end without notice."
+      ],
+      "concept": "Your idle cash sits in money-market funds that earn daily interest, and you can sell back to cash within about a day.",
+      "bumiOnly": false,
+      "source": "https://www.moomoo.com/my",
+      "verified": null
+    },
+    {
+      "id": "stashaway",
+      "name": "StashAway Simple",
+      "bank": "StashAway",
+      "logo": "S",
+      "cat": "Robo-Advisor",
+      "tiers": [
+        [100000, 3.6],
+        [null, 2.8]
+      ],
+      "badges": ["T+1"],
+      "risk": 2,
+      "catch": [
+        "Rate is variable and tied to underlying fund yields, not guaranteed.",
+        "Not PIDM protected.",
+        "Balances above RM100,000 earn a lower 2.80%."
+      ],
+      "concept": "A robo-advisor invests your cash in low-risk funds for you, so you earn more than a normal savings account without picking anything.",
+      "bumiOnly": false,
+      "source": "https://www.stashaway.my",
+      "verified": null
+    },
+    {
+      "id": "gx",
+      "name": "GXBank Savings",
+      "bank": "GXBank",
+      "logo": "G",
+      "cat": "Digital Bank",
+      "tiers": [
+        [5000, 4.5],
+        [null, 2.1]
+      ],
+      "badges": ["PIDM Protected", "Instant Liquidity"],
+      "risk": 1,
+      "catch": [
+        "The 4.50% bonus rate is capped at RM5,000; the rest earns 2.10%.",
+        "Bonus tier needs a minimum number of monthly transactions or card spends to stay active.",
+        "Bonus rate is promotional and can be reduced."
+      ],
+      "concept": "A digital bank pays a bonus rate on a small balance, then a normal rate above it, so your real rate is a blend of both.",
+      "bumiOnly": false,
+      "source": "https://www.gxbank.my",
+      "verified": null,
+      "cond": {
+        "text": "Bonus rate needs a minimum number of monthly transactions or card spends",
+        "tiers": [[null, 2.1]]
+      }
+    },
+    {
+      "id": "versa",
+      "name": "Versa Cash",
+      "bank": "Versa",
+      "logo": "V",
+      "cat": "MMF",
+      "tiers": [[null, 3.3]],
+      "badges": ["T+1"],
+      "risk": 2,
+      "catch": [
+        "Not PIDM protected; returns are fund performance, not a promise.",
+        "Withdrawals take one business day, so it is not for same-day cash needs."
+      ],
+      "concept": "A money market fund lends your cash out for very short periods and shares the interest with you.",
+      "bumiOnly": false,
+      "source": "https://versa.my",
+      "verified": null
+    },
+    {
+      "id": "asnb",
+      "name": "ASNB Fixed-Price Fund",
+      "bank": "ASNB",
+      "logo": "A",
+      "cat": "MMF",
+      "tiers": [
+        [200000, 4.5],
+        [null, 0]
+      ],
+      "badges": ["T+1"],
+      "risk": 2,
+      "catch": [
+        "Bumi quota: open to Bumiputera investors only; non-Bumiputera applicants cannot invest.",
+        "Holding cap of RM200,000; amounts above earn nothing.",
+        "Dividends are declared once a year and are not guaranteed."
+      ],
+      "concept": "A government-linked fund that pays an annual dividend; the price stays fixed, so you earn through dividends, not price growth.",
+      "bumiOnly": true,
+      "source": "https://www.asnb.com.my",
+      "verified": null
+    },
+    {
+      "id": "maybank",
+      "name": "Maybank eFD",
+      "bank": "Maybank",
+      "logo": "MB",
+      "cat": "FD",
+      "tiers": [[null, 2.5]],
+      "badges": ["PIDM Protected", "Lock-in"],
+      "risk": 1,
+      "catch": [
+        "Breaking the deposit early forfeits the interest.",
+        "Auto-renewal: if you do nothing, it rolls into a new term at that day's board rate."
+      ],
+      "concept": "A fixed deposit locks your money for a set time in return for a guaranteed rate and full PIDM protection.",
+      "bumiOnly": false,
+      "source": "https://www.maybank2u.com.my",
+      "verified": null,
+      "tenorRates": [
+        [1, 2.5],
+        [3, 2.55],
+        [6, 2.6],
+        [12, 2.65],
+        [24, 2.8],
+        [36, 2.95]
+      ]
+    }
+  ]
+}
